@@ -1,3 +1,7 @@
+# This formula exists in two places, byte-for-byte identical: the main repo at
+# homebrew/s1-mini-engine.rb and the tap at nub235/homebrew-tap, Formula/s1-mini-engine.rb.
+# release.sh rewrites the url and sha256 below on every release, so do not
+# hand-edit those two lines — cut a release, then copy this file to the other side.
 class S1MiniEngine < Formula
   desc "Engine for running Superwhisper S1-mini to normalize ASR transcripts"
   homepage "https://github.com/nub235/s1-mini-engine"

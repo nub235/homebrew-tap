@@ -17,8 +17,7 @@ no build step and no Swift toolchain required.
 
 Requires an Apple Silicon Mac on macOS 14 (Sonoma) or newer.
 
-The model weights are **not** bundled — they are ~495 MB and the engine works
-fine without them until you use it. Fetch them once:
+The model weights are **not** bundled — they are ~495 MB. Fetch them once:
 
 ```bash
 s1-mini-engine pull
